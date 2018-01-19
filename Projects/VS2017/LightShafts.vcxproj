@@ -150,7 +150,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;AntTweakBar64.lib;inih.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\..\Externals\GLEW\lib\VS2015;..\..\..\Externals\GLFW\lib\VS2015;..\..\..\Externals\INIH\lib\VS2015\Debug;..\..\..\Externals\AntTweakBar\lib\VS2015</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\Externals\GLEW\lib\VS2015;..\..\..\Externals\GLFW\lib\VS2015;..\..\..\Externals\INIH\lib\VS2017\Debug;..\..\..\Externals\AntTweakBar\lib\VS2015</AdditionalLibraryDirectories>
     </Link>
     <PreBuildEvent>
       <Command>../../Scripts/postbuild.bat $(Platform) $(Configuration) VS2015</Command>
@@ -190,7 +190,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;AntTweakBar64.lib;inih.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\..\Externals\GLEW\lib\VS2015;..\..\..\Externals\GLFW\lib\VS2015;..\..\..\Externals\INIH\lib\VS2015\Release;..\..\..\Externals\AntTweakBar\lib\VS2015</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\Externals\GLEW\lib\VS2015;..\..\..\Externals\GLFW\lib\VS2015;..\..\..\Externals\INIH\lib\VS2017\Release;..\..\..\Externals\AntTweakBar\lib\VS2015</AdditionalLibraryDirectories>
     </Link>
     <PreBuildEvent>
       <Command>../../Scripts/postbuild.bat $(Platform) $(Configuration) VS2015</Command>
