@@ -14,6 +14,9 @@ Hold **right mouse** button to rotate camera
 **Y/H/G/J** - move light source  
 **I/K** - move light source up and down
 
+## Configuration
+You can change various settings in Data/config.ini to alter such things like the color of light or number of light shafts samples.
+
 ## More
 You can read more about light shafts in the blog entry: https://damnow.blogspot.com/2014/12/light-shafts.html
 
