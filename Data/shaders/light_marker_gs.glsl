@@ -1,5 +1,5 @@
 /**
- * This file is a part of a project from http://zompi.pl/light-shafts/
+ * Geometry shader used to draw a light marker.
  * (c) 2014 Damian Nowakowski
  */
 

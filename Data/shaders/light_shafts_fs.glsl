@@ -1,5 +1,5 @@
 /**
- * This file is a part of a project from http://zompi.pl/light-shafts/
+ * Fragment shader of a post process that draws scene with light shafts.
  * (c) 2014 Damian Nowakowski
  */
 

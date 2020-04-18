@@ -1,5 +1,5 @@
 /**
- * This file is a part of a project from http://zompi.pl/light-shafts/
+ * Vertex shader used to draw a 3D model.
  * (c) 2014 Damian Nowakowski
  */
 
