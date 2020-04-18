@@ -1,8 +1,3 @@
-Projects/VS2015/.vs/
-Projects/VS2015/_build/
-Projects/VS2015/Output/
-Projects/VS2017/.vs/
-Projects/VS2017/_build/
-Projects/VS2017/Output/
-*.suo
-*.db
+.vscode
+build
+Output

@@ -10,8 +10,8 @@
 
 #include "Camera.h"
 #include "Window.h"
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/constants.hpp>
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/constants.hpp"
 
 // Shortcut for transforming vec3 using mat4
 #define TRANSFORM(v,m) (glm::vec3)(glm::vec4(v, 1.0f) * m)

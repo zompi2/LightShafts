@@ -1,9 +1,20 @@
-# Light Shafts
+Light Shafts
+=====
+This is a project that presents how to implement a light shaft post process with OpenGL.
 
-Here's a project that presents how to implement a light shaft post process with OpenGL.
+## How to build
+This project uses CMake to generate build solution.  
+It requires OpenGL to be installed on the building machine.  
+It requires [GLEW](http://glew.sourceforge.net) and [GLFW](https://www.glfw.org) libraries (give CMake paths to their libraries and includes).  
+Data directory must be in the same directory the executable is.  
 
-It requires external libraries to use from here: https://github.com/zompi2/Externals
+## Controls
+Hold **right mouse** button to rotate camera  
+**W/S/A/D** - move camera  
+**Y/H/G/J** - move light source  
+**I/K** - move light source up and down
 
-Link to the tutorial: http://zompi.pl/light-shafts-b/
+## More
+You can read more about light shafts in the blog entry: https://damnow.blogspot.com/2014/12/light-shafts.html
 
-![](http://zompi.pl/wp-content/uploads/2014/12/ls_final.png)
+You can download a working .exe file from here: https://drive.google.com/file/d/1BM-YR6DK2pkTnrrAu7lW61b08jBgOSIb

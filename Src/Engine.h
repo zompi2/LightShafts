@@ -10,7 +10,7 @@
  * (c) 2014 Damian Nowakowski
  */
 
-#include <IniReader.h>
+#include "inih/cpp/INIReader.h"
 
 #include <GL/glew.h>
 #include <GL/wglew.h>

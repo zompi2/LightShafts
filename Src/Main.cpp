@@ -10,9 +10,9 @@
 #include "Engine.h"
 
 /**
- * Start the application with no console 
+ * Start the application.
  */
-int __stdcall wWinMain(HINSTANCE hInst, HINSTANCE prevInst, LPWSTR szCmdLine, int nCmdShow)
+int main()
 {
 	// Init application engine so it can run
 	ENGINE_INIT

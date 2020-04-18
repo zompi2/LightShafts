@@ -11,7 +11,7 @@
 * (c) 2014 Damian Nowakowski
 */
 
-#include <glm/glm.hpp>
+#include "glm/glm.hpp"
 #include "Engine.h"
 
 // Define the uniform buffer elements of light shafts shader

@@ -14,7 +14,7 @@
 #include "Scene.h"
 #include "Camera.h"
 #include "Light.h"
-#include <glm/gtc/type_ptr.hpp>
+#include "glm/gtc/type_ptr.hpp"
 
 ///< Vertex coordinates of final scene (quad filling whole screen)
 GLfloat rect[12] =

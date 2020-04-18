@@ -11,7 +11,6 @@
 #include "Engine.h"
 #include "Scene.h"
 #include "Window.h"
-#include "TweakBar.h"
 
 // Set the default value of instance pointer to avoid memory ridings
 Engine * Engine::engine = NULL;
@@ -58,6 +57,14 @@ void Engine::Init()
 	// Create a config reader with configuration ini file so it can be used in future
 	config = new INIReader(CONFIG_PATH);
 
+	// Check if config has been loaded correctly
+	if (config->ParseError() != 0)
+	{
+		printf("Failed to load config.ini\n");
+		system("pause");
+		exit(EXIT_FAILURE);
+	}
+
 	// Create and initialize window.
 	// If window cannot be created stop the engine.
 	// Init is not inside a constructor because it has to return a value.
@@ -73,9 +80,6 @@ void Engine::Init()
 	// inside scene needs an access to scene during creation.
 	scene = new Scene();
 	scene->Init();
-
-	// Create a tweak bar for tweaking an application
-	tweakBar = new TweakBar(this);
 	
 	// Set the callback for key action (listening to Esc to close an application)
 	glfwSetKeyCallback(window->glfwWindow, OnKey);
@@ -162,9 +166,6 @@ void Engine::Poll()
 			renderTimer -= RENDER_PERIOD;
 		}
 		scene->OnDraw();
-
-		// Draw tweak bar too.
-		tweakBar->OnDraw();
 
 		// At the end flush opengl and swap buffers.
 		glFlush();

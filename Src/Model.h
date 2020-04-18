@@ -10,7 +10,7 @@
 */
 
 #include <GL/glew.h>
-#include <glm/glm.hpp>
+#include "glm/glm.hpp"
 #include "Camera.h"
 #include "Light.h"
 
@@ -42,14 +42,14 @@ public:
 
 	/**
 	* Update the uniform buffer with light parameters
-	* @oaram light - currently used for rendering point light
+	* @param light - currently used for rendering point light
 	*/
 	void UpdateBuffer(Light * light);
 
 	/**
 	* Draw the model.
 	* @param camera		- currently used for rendering camera
-	* @oaram light		- currently used for rendering point light
+	* @param light		- currently used for rendering point light
 	* @param occlusion	- true if only occlusion must be drawn
 	*/
 	void Draw(Camera * camera, Light * light, bool occlusion);
