@@ -2,7 +2,7 @@
 # LightShafts example CMakeLists file 
 # for generating project solutions.
 #
-# (c) 2014 Damian Nowakowski
+# (c) 2020 Damian Nowakowski
 #######################################
 
 cmake_minimum_required(VERSION 3.0.0)
