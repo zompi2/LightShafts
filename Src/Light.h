@@ -6,7 +6,6 @@
  * This is a light source class. It handles all parameters
  * and shaders for Phong-Blinn point light.
  *
- * This file is a part of a project from http://zompi.pl/light-shafts/
  * (c) 2014 Damian Nowakowski
  */
 

@@ -6,7 +6,6 @@
  * This is an engine class where the core application's mechanics
  * are stored and processed.
  *
- * This file is a part of a project from http://zompi.pl/light-shafts/
  * (c) 2014 Damian Nowakowski
  */
 

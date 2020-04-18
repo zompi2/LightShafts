@@ -5,7 +5,6 @@
 * and shaders for lightshafts and helper methods for rendering into
 * proper render buffer.
 *
-* This file is a part of a project from http://zompi.pl/light-shafts/
 * (c) 2014 Damian Nowakowski
 */
 

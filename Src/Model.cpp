@@ -3,7 +3,6 @@
 *
 * This is a model class. It stores and draws simple teapot.
 *
-* This file is a part of a project from http://zompi.pl/light-shafts/
 * (c) 2014 Damian Nowakowski
 */
 

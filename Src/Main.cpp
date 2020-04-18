@@ -3,7 +3,6 @@
  *
  * This is the main file of LightShafts example.
  *
- * This file is a part of a project from http://zompi.pl/light-shafts/
  * (c) 2014
  */
 

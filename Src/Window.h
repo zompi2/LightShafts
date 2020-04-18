@@ -6,7 +6,6 @@
 * This is a window class. It creates and handles the window with proper
 * opengl context.
 *
-* This file is a part of a project from http://zompi.pl/light-shafts/
 * (c) 2014 Damian Nowakowski
 */
 
