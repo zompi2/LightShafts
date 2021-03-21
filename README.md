@@ -18,6 +18,6 @@ Hold **right mouse** button to rotate camera
 You can change various settings in Data/config.ini to alter such things like the color of light or number of light shafts samples.
 
 ## More
-You can read more about light shafts in the blog entry: https://damnow.blogspot.com/2014/12/light-shafts.html
+You can read more about light shafts in the blog entry: https://zompidev.blogspot.com/2014/12/light-shafts.html
 
 You can download a working .exe file from here: https://drive.google.com/file/d/1BM-YR6DK2pkTnrrAu7lW61b08jBgOSIb
